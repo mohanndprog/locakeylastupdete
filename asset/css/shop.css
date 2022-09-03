@@ -1,0 +1,32 @@
+/* *************************************************************************************** */
+/* Start consultation */
+.consultation {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    background: url(../../img/consultation/Group\ 220.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+  }
+  .consultation .col {
+    padding-top: 150px;
+  }
+  .consultation h2 {
+    color: #fff;
+    padding: 10px 0;
+  }
+  .consultation a {
+    background-color: #21d99d;
+    border-radius: 50px;
+    margin: 10px 0;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  .consultation a:hover {
+    background-color: #002e9e;
+    padding: 10px;
+  }
+  /* End consultation */

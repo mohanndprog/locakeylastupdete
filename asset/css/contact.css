@@ -1,0 +1,211 @@
+
+ 
+.contact-area {
+    background: url(../img/bg/contact-bg.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width:768px) {
+    .contact {
+        margin-bottom: 60px;
+    }
+}
+
+.contact input {
+    background: #FAFAFA;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #F57A38;
+    font-size: 16px;
+    height: 60px;
+    padding: 10px;
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+    padding-left: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.contact textarea {
+    background: #FAFAFA;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #F57A38;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+    padding-left: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.contact input:focus {
+    background: #FAFAFA;
+    border: 1px solid #fff;
+    color: #F57A38;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.contact textarea:focus {
+    background: #FAFAFA;
+    border: 1px solid #fff;
+    color: #F57A38;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.form-control::placeholder {
+    color: #F57A38;
+    opacity: 1;
+}
+
+.btn-contact-bg {
+    border-radius: 30px;
+    color: #fff;
+    outline: medium none !important;
+    padding: 15px 27px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    background: #F57A38;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    width: 100%;
+}
+.form-group{
+    padding: 5px;
+}
+.btn-contact-bg:hover,
+.btn-contact-bg:focus {
+    background: #F57A38;
+    color: #fff;
+}
+
+/*START ADDRESS*/
+
+.single_address {
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    width: 334px;
+    height: 130px;
+    padding: 13px;
+}
+.cotactcontent {
+    margin-left: 64px;
+    margin-top: -124px;
+    font-size: 10p;
+    padding: 24px;
+}
+.cotactcontent.editt {
+    margin-top: -75px;
+}
+.col-md-5.text-center.float-right {
+    margin-left: 70%;
+    width: 32%;
+}
+#contact .container .btn{
+    font-weight: bold;
+    color: #fff;
+    margin-top: 23px;
+    background-color: #F57A38;
+}
+h1.text-center.text-primary.titel {
+    font-size: 32px;
+}
+hr.linetitel {
+    height: 2px;
+    width: 122px;
+    font-weight: bold;
+    margin-left: 88px;
+    color: #F57A38;
+    background-color: #F57A38;
+}
+
+@media only screen and (max-width:768px) {
+    .single_address {
+        padding-left: 0px;
+    }
+}
+
+.single_address i {
+    background: #f6f6f6;
+    color: #F57A38;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+    margin-right: 14px;
+    font-size: 22px;
+ 
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single_address:hover i {
+    background: #F57A38;
+    color: #fff;
+}
+
+.single_address h4 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    font-weight: 600;
+    color: #F57A38;
+}
+
+.single_address p {
+    overflow: hidden;
+    margin-top: 5px;
+    color: #333;
+}
+
+.section-title h1 {
+    font-size: 44px;
+    font-weight: 500;
+    margin-top: 0;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.section-title p {
+    padding: 0 10px;
+    width: 70%;
+    margin: auto;
+    letter-spacing: 1px;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+#contact .text-center {
+    text-align: center!important;
+    padding: 17px;
+}
+#follow{
+    background-color: #FAFAFA;
+}
+#follow .container h5 {
+    font-weight: bold;
+    color: rgb(245, 122, 56);
+    padding: 17px;
+}
